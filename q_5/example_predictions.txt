@@ -1,0 +1,34 @@
+
+======================================================================
+5 TEST EXAMPLES WITH PREDICTIONS
+======================================================================
+
+Example 1 [CORRECT]:
+  Review: "'The Adventures Of Barry McKenzie' started life as a satirical comic strip in 'Private Eye', written by Barry Humphries and based on an idea by Peter Cook. McKenzie ( 'Bazza' to his friends ) is a lanky, loud, hat-wearing Australian whose two main interests in life are sex ( despite never having had..."
+  True label:      positive
+  Predicted label:  positive
+  Confidence:       0.8151
+
+Example 2 [CORRECT]:
+  Review: "For a while it seemed like this show was on 24/7. Then apparently there was a second season or some other kind of continuation of this horrible show about the two most vapid and conceited people who have ever been filmed. All the other comments have captured the essence of these two selfish, haggish..."
+  True label:      negative
+  Predicted label:  negative
+  Confidence:       0.9903
+
+Example 3 [CORRECT]:
+  Review: "Well it's been a long year and I'm down to reviewing the final film for 2004. Panaghoy Sa Suba (Call of The River) placed second in the recent Metro Manila Film Festival. As expected, it didn't do so well at the box office as it was too artsy for the common moviegoers especially since MMFF is the se..."
+  True label:      positive
+  Predicted label:  positive
+  Confidence:       0.9593
+
+Example 4 [CORRECT]:
+  Review: "Call me adolescent but I really do think that this is a great series. If you haven't had a chance to experience a few episodes of the latest Star Trek series, you should definitely watch this one. Perhaps more compelling than that of Voyager's Caretaker, which launched the series with Cpt. Janeway, ..."
+  True label:      positive
+  Predicted label:  positive
+  Confidence:       0.9946
+
+Example 5 [CORRECT]:
+  Review: "A scientist (John Carradine--sadly) finds out how to bring the dead back to life. However they come back with faces of marble. Eventually this all leads to disaster.<br /><br />Boring, totally predictable 1940s outing. This scared me silly when I was a kid but just bores me now. I had to struggle to..."
+  True label:      negative
+  Predicted label:  negative
+  Confidence:       0.9975
