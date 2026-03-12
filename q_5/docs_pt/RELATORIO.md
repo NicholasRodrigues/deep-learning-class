@@ -99,12 +99,12 @@ O early stopping monitora a perda de validação e restaura o checkpoint com men
 
 | Modelo     | Embeddings     | Acurácia   | Perda   | Melhor Época | Parâmetros  |
 | ---------- | -------------- | ---------- | ------- | ------------ | ----------- |
-| BiLSTM     | Aprendido-100d | 90,24%     | 0,2554  | 4            | 2.632.009   |
+| BiLSTM     | Aprendido-100d | 90,62%     | 0,2530  | 7            | 2.632.009   |
 | BiGRU      | Aprendido-100d | 90,06%     | 0,2630  | 4            | 2.474.313   |
-| **BiLSTM** | **GloVe-300d** | **91,30%** | **0,2229** | **2**     | **6.837.209** |
+| **BiLSTM** | **GloVe-300d** | **91,22%** | **0,2232** | **2**     | **6.837.209** |
 | BiGRU      | GloVe-300d     | 91,02%     | 0,2347  | 2            | 6.628.313   |
 
-**Melhor modelo: BiLSTM + GloVe-300d com 91,30% de acurácia no teste.**
+**Melhor modelo: BiLSTM + GloVe-300d com 91,22% de acurácia no teste.**
 
 ### Curvas de Treinamento
 

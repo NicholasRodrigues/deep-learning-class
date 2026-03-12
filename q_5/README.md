@@ -35,12 +35,12 @@ Entrada (batch, 300)
 
 | # | Modelo | Embeddings     | Acurácia | Perda   | Melhor Época | Parâmetros  |
 |---|--------|----------------|----------|---------|--------------|-------------|
-| 1 | BiLSTM | Aprendido-100d | 90,24%   | 0,2554  | 4            | 2.632.009   |
+| 1 | BiLSTM | Aprendido-100d | 90,62%   | 0,2530  | 7            | 2.632.009   |
 | 2 | BiGRU  | Aprendido-100d | 90,06%   | 0,2630  | 4            | 2.474.313   |
-| 3 | **BiLSTM** | **GloVe-300d** | **91,30%** | **0,2229** | **2** | **6.837.209** |
+| 3 | **BiLSTM** | **GloVe-300d** | **91,22%** | **0,2232** | **2** | **6.837.209** |
 | 4 | BiGRU  | GloVe-300d     | 91,02%   | 0,2347  | 2            | 6.628.313   |
 
-**Melhor modelo: BiLSTM + GloVe-300d (91,30%)**
+**Melhor modelo: BiLSTM + GloVe-300d (91,22%)**
 
 ### Curvas de Treinamento
 
@@ -52,6 +52,7 @@ Entrada (batch, 300)
 
 ```
 q_5/
+├── notebook.ipynb            # Notebook interativo com código completo (português)
 ├── main.py                  # Ponto de entrada — executa os 4 experimentos
 ├── src/
 │   ├── config.py            # Hiperparâmetros, seeds, device
